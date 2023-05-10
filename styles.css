@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+    margin: 0px;
+    color:blueviolet;
+}
+
+body {
+    padding-top: 2rem;
+}
+
+.header{
+    background-color: aquamarine;
+    padding-bottom: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: aqua;
+}
+
+@media screen and (min-width: 600px) {
+    *{
+        text-align: left;
+    }
+}
